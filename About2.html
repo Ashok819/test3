@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album with Hobbies</title>
+    <style>
+        /* Background Wallpaper */
+        body {
+            background: url('Background_.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        /* Album Container */
+        .album-container {
+            position: relative;
+            width: 600px;
+            height: 600px;
+            margin: 50px auto;
+        }
+
+        /* Main Center Image */
+        .main-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Circular Surrounding Photos */
+        .photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+            position: absolute;
+            transition: transform 0.3s;
+        }
+
+        /* Positioning Surrounding Photos */
+
+        
+        /* Hover Effect */
+        .photo:hover {
+            transform: scale(1.2);
+        }
+
+        /* About Section */
+        .about {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin-top: 50px;
+            color: white;
+        }
+
+        .about h2 {
+            color: yellow;
+        }
+
+        /* Hobbies Section */
+        .hobbies {
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            width: 80%;
+            border-radius: 10px;
+        }
+
+        .hobbies h2 {
+            color: cyan;
+        }
+
+        .hobby-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .hobby {
+            width: 200px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .hobby img {
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+
+        .hobby p {
+            color: white;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-shadow: 2px 2px 5px black;"></h1>
+
+    <div class="album-container"><br><br>
+        <img src="main.PNG" class="main-photo" alt="Main Photo"><br>
+        <h1>ಕೃಷ್ಣಂ ವಂದೇ ಜಗದ್ಗುರುಂ </h1>
+      
+    </div>
+
+    <div class="about">
+        <h2> </h2>
+        
+        <p><h2><h3>I’m Ashok</h3>a Mechanical Engineer with a PGDM in Big Data Technologies from CDAC.<br> With a strong foundation in engineering and a passion for the power of data, <br>I specialize in leveraging technology to solve complex problems.<br>  I’m always exploring new technologies and staying curious about the latest advancements in the tech world, <br>especially in areas like Big Data, AI, and automation.<br>
+
+             I have a deep interest in photography, capturing moments that tell unique stories.<br>  I’m also passionate about yoga, which helps me maintain balance and clarity, both physically and mentally<br>
+            
+            When I’m not working or practicing yoga, you’ll likely find me on the cricket field. <br> It’s a great way for me to stay active, unwind, and connect with friends.
+          </h2></p>
+    </div>
+
+    <div class="hobbies">
+       
+        <div class="hobby-grid">
+            <div class="hobby">
+                <img src='Travel.PNG' alt="Reading">
+                <p>Travel</p>
+            </div>
+          
+          
+            <div class="hobby">
+                <img src="yoga.PNG" alt="Cooking">
+                <p>Yoga</p>
+            </div>
+            <div class="hobby">
+                <img src="bike.PNG" alt="Photography">
+                <p>Photography</p>
+            </div>
+            <div class="hobby">
+                <img src="cricket2.jpg" alt="Cycling">
+                <p>Cricket</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
