@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #f0f0f0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #1e90ff;
+            margin-bottom: 30px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .project-card {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 10px rgba(30, 144, 255, 0.5);
+        }
+        .project-card h2 {
+            color: #1e90ff;
+        }
+        .project-card p {
+            margin: 10px 0;
+            color: #cccccc;
+        }
+        .project-card a {
+            text-decoration: none;
+            color: white;
+            background-color: #1e90ff;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin-right: 5px;
+            transition: background-color 0.3s;
+        }
+        .project-card a:hover {
+            background-color: #3aa0ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Projects</h1>
+        <div class="projects">
+
+            <!-- Project 1: PixelMatrix -->
+            <div class="project-card">
+                <h2>PixelMatrix</h2>
+                <p>An ML-based app to convert images to numbers and retrieve them back using NumPy and SQLite.</p>
+                <p><strong>Technologies:</strong> Python, NumPy, SQLite</p>
+                <a href="">Live Demo(Loading)</a>
+                <a href="https://github.com/YourUsername/PixelMatrix">GitHub</a>
+            </div>
+
+            <!-- Project 2: Fake Review Detector -->
+            <div class="project-card">
+                <h2>Fake Review Detector</h2>
+                <p>Classifies reviews as 'Human' or 'Computer Generated' using Random Forest and TF-IDF.</p>
+                <p><strong>Technologies:</strong> Python, Random Forest, TF-IDF, Hugging Face</p>
+                <a href="https://huggingface.co/spaces/Ashok19/fakereviewdetector">Live Demo</a>
+                <a href="https://github.com/YourUsername/FakeReviewDetector">GitHub</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h2>Chat bot</h2>
+                <p>Simple ML based chatbot</p>
+                <p><strong>Technologies:</strong> logistic regression</p>
+                <a href="https://huggingface.co/spaces/Ashok19/chatbot">Live Demo</a>
+                <a href="Your GitHub URL">GitHub</a>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <h2>Emotion Detection</h2>
+                <p>Brief description of your fourth project.</p>
+                <p><strong>Technologies:</strong> CNN,Tensorflow </p>
+                <a href="Your Hugging Face URL">Loading </a>
+                <a href="https://github.com/Ashok819/Emotion/blob/main/Emotion.ipynb">GitHub</a>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <h2>Smart city traffic management</h2>
+                <p>Using AI detects speed of vechicle and vechicle density in the lane </p>
+                <p><strong></strong> </p>
+                <a href="index1.html">Click</a>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
